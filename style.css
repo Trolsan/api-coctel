@@ -1,0 +1,84 @@
+body {
+
+    background-color: #3d3c65;
+
+}
+
+header {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1b1932;
+    margin: 2%;
+    padding: 1%;
+}
+
+#containerCard {
+    flex: 3 1 0%;
+    position: relative;
+    padding: 0.75rem;
+    color: #DFF6FF;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+
+    
+}
+
+h1 {
+    margin: 0px;
+    color: #DFF6FF;
+    border: none;
+    font-weight: 900;
+    z-index: 1;
+    font-size: 5.625rem;
+    
+}
+
+@media screen and (max-width: 600px){
+    h1{
+        font-size: 3.625rem;
+    }
+}
+
+h2 {
+    margin: 30px;
+    font-weight: 900;
+    background-color: #827397;
+    color: #DFF6FF;
+    padding: 15px;
+    border-radius: 5%;
+}
+
+
+
+.content {
+    margin: 2%;
+    background-color: #1a172e;
+    border-radius: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+}
+
+.image {
+    border-radius: 3%;
+    margin:  30px;
+    width: 250px;
+    height: 250px;
+}
+
+input {
+	height: 4rem;
+	border: none;
+	border-radius: 0.5rem;
+	padding: 0 1rem;
+	outline: var(--color-primary);
+	width: 70%;
+}
